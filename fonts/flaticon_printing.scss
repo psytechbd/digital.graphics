@@ -1,0 +1,125 @@
+$flaticon_printing-font: "flaticon_printing";
+
+@font-face {
+    font-family: $flaticon_printing-font;
+    src: url("./flaticon_printing.ttf?571d706effc7edc3266b066281a217e5") format("truetype"),
+url("./flaticon_printing.woff?571d706effc7edc3266b066281a217e5") format("woff"),
+url("./flaticon_printing.woff2?571d706effc7edc3266b066281a217e5") format("woff2"),
+url("./flaticon_printing.eot?571d706effc7edc3266b066281a217e5#iefix") format("embedded-opentype"),
+url("./flaticon_printing.svg?571d706effc7edc3266b066281a217e5#flaticon_printing") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_printing !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_printing-map: (
+    "search": "\f101",
+    "shopping-bag": "\f102",
+    "check": "\f103",
+    "cross": "\f104",
+    "right-down": "\f105",
+    "printed": "\f106",
+    "heat-press": "\f107",
+    "suitcase": "\f108",
+    "shop": "\f109",
+    "trophy": "\f10a",
+    "star": "\f10b",
+    "google-docs": "\f10c",
+    "right-arrow": "\f10d",
+    "t-shirt": "\f10e",
+    "print": "\f10f",
+    "3d-printing": "\f110",
+    "roll": "\f111",
+    "3d-printer": "\f112",
+    "mockup-design": "\f113",
+    "no-print": "\f114",
+    "flyer": "\f115",
+    "location": "\f116",
+    "chat": "\f117",
+    "fax": "\f118",
+    "open": "\f119",
+);
+
+.flaticon-search:before {
+    content: map-get($flaticon_printing-map, "search");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon_printing-map, "shopping-bag");
+}
+.flaticon-check:before {
+    content: map-get($flaticon_printing-map, "check");
+}
+.flaticon-cross:before {
+    content: map-get($flaticon_printing-map, "cross");
+}
+.flaticon-right-down:before {
+    content: map-get($flaticon_printing-map, "right-down");
+}
+.flaticon-printed:before {
+    content: map-get($flaticon_printing-map, "printed");
+}
+.flaticon-heat-press:before {
+    content: map-get($flaticon_printing-map, "heat-press");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon_printing-map, "suitcase");
+}
+.flaticon-shop:before {
+    content: map-get($flaticon_printing-map, "shop");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_printing-map, "trophy");
+}
+.flaticon-star:before {
+    content: map-get($flaticon_printing-map, "star");
+}
+.flaticon-google-docs:before {
+    content: map-get($flaticon_printing-map, "google-docs");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_printing-map, "right-arrow");
+}
+.flaticon-t-shirt:before {
+    content: map-get($flaticon_printing-map, "t-shirt");
+}
+.flaticon-print:before {
+    content: map-get($flaticon_printing-map, "print");
+}
+.flaticon-3d-printing:before {
+    content: map-get($flaticon_printing-map, "3d-printing");
+}
+.flaticon-roll:before {
+    content: map-get($flaticon_printing-map, "roll");
+}
+.flaticon-3d-printer:before {
+    content: map-get($flaticon_printing-map, "3d-printer");
+}
+.flaticon-mockup-design:before {
+    content: map-get($flaticon_printing-map, "mockup-design");
+}
+.flaticon-no-print:before {
+    content: map-get($flaticon_printing-map, "no-print");
+}
+.flaticon-flyer:before {
+    content: map-get($flaticon_printing-map, "flyer");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_printing-map, "location");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon_printing-map, "chat");
+}
+.flaticon-fax:before {
+    content: map-get($flaticon_printing-map, "fax");
+}
+.flaticon-open:before {
+    content: map-get($flaticon_printing-map, "open");
+}
