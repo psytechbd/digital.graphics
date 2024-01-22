@@ -2819,3 +2819,15 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
 .min-box { height: 785px; }
 .min-box-1 { height: 800px; }
 .min-box-2 { height: 738 }
+
+.slick-image{
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.slick-image:hover{
+    scale: 1.1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
