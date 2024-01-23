@@ -2831,3 +2831,8 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.rs-sbg {
+    background-position: center right !important;
+  }
+
