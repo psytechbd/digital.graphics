@@ -2841,3 +2841,11 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
     width: 100%;
     object-fit: cover;
 }
+
+.menu-col img{
+    width: 50px;
+}
+
+.menu-col a:hover{
+    color:#003055 !important
+}
