@@ -2854,7 +2854,7 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
 
 /*Login code */
 .intro-section {
-    background-image: url(https://i.ibb.co/t2tbbh6/pexels-luis-quintero-2471234.jpg);
+    background-image: url(../images/Login-man.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -3015,3 +3015,7 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
   .login-wrapper-footer-text {
     font-size: 14px;
     text-align: center; }
+
+    .section-title.style1 .title-header h2 {
+        font-size: 100px;
+    }
