@@ -218,7 +218,7 @@ menu, ol, ul {
 /** Typography Variable **/
 :root {
     --base-skin: linear-gradient(to right, #fc953b , #ff6469 );
-    --base-secondarycolor: #fc963a;
+    --base-secondarycolor: #666;
     --base-dark: #000000;
     --base-grey: #f6f6f6;
     --base-white: #ffffff; 
@@ -3020,6 +3020,8 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
         font-size: 100px;
     }
 
-    .mega-submenu{
-       
+    .menu-col p{
+       font-size: 10px;
+       line-height: 10px;
+       margin-bottom: 8px;
     }
