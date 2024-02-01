@@ -4629,3 +4629,25 @@ section.error-404 .prt-404-img {
     line-height: 12px;
     margin-bottom: 8px;
 }
+
+.btn-main{
+    /* position: absolute; */
+  border-radius: 50px;
+  font-size: 15px;
+  line-height: 8px;
+  background-image: linear-gradient(to right, #fc953b, #ff6469);
+  font-weight: 700;
+  padding: 16px 30px;
+  right: 0;
+  top: 7px;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  margin: 30px;
+}
+
+.btn-main:hover{
+    background-image: linear-gradient(to right, #ff6469 0%, #fc953b 50%, #ff6469 100%);
+  background-position: right center;
+  background-size: 200% auto;
+  transition: 0.5s;
+}
